@@ -51,7 +51,7 @@ case $option in
     3)
         echo -e "\n${greenColour}Say goodbye to your pc ...${endColour}\n"
         for i in {5..1}; do
-            echo -e "\n${redColour}Kaboom in $i${endColour}\n"
+            echo -e "\n${yellowColour}Kaboom in $i${endColour}\n"
             sleep 1
         done
         echo -e "\n${redColour}You fell into the trap, baby${endColour}\n"
