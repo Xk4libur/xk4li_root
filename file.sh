@@ -15,13 +15,13 @@ grayColour="\e[0;37m\033[1m"
 # Menu de opciones
 echo -e "\n${greenColour}Choose your option:${endColour}\n"
 
-echo -e "$\n{turquoiseColour}1)${endColour}${yellowColour}Hack the NASA in 10 seconds${endColour}\n"
+echo -e "\n${turquoiseColour}1)${endColour}${yellowColour}Hack the NASA in 10 seconds${endColour}\n"
 
-echo -e "$\n{turquoiseColour}2)${endColour}${yellowColour}Ghostfile${endColour}\n"
+echo -e "\n${turquoiseColour}2)${endColour}${yellowColour}Ghostfile${endColour}\n"
 
-echo -e "$\n{turquoiseColour}3)${endColour}${yellowColour}¿Kaboom?${endColour}\n"
+echo -e "\n${turquoiseColour}3)${endColour}${yellowColour}¿Kaboom?${endColour}\n"
 
-echo -e "$\n{turquoiseColour}4)${endColour}${yellowColour}Go 2 root${endColour}\n"
+echo -e "\n${turquoiseColour}4)${endColour}${yellowColour}Go 2 root${endColour}\n"
 
 # Pedir al usuario que introduzca una opción
 echo -ne "\n${redColour}Give me a number and I will do the magic:${endColour}\n"
