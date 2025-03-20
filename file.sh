@@ -12,6 +12,8 @@ purpleColour="\e[0;35m\033[1m"
 turquoiseColour="\e[0;36m\033[1m"
 grayColour="\e[0;37m\033[1m"
 
+tput civis # Ocultar cursor
+
 # Menu de opciones
 echo -e "\n${greenColour}Choose your option:${endColour}\n"
 
@@ -56,3 +58,5 @@ case $option in
         echo -e "\n${redColour}You have to choose a number between 1 and 4${endColour}\n"
         ;;
 esac
+
+tput cnorm # Mostrar cursor
