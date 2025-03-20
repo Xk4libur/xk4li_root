@@ -30,6 +30,7 @@ read option # Esto captura la tecla pulsada con Enter
 # Opciones del menú
 case $option in
     1)
+        clear
         echo -e "\n${greenColour}Hacking the NASA ...${endColour}\n"
         sleep 3
         echo -e "\n${greenColour}Getting access to the database ...${endColour}\n"
