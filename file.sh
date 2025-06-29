@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Author: Miguel Nebot (aka xk4libur)
+# Author: Made by xk4libur
 
 # Colores
 greenColour="\e[0;32m\033[1m"
